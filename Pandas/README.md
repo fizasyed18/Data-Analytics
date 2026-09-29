@@ -2,7 +2,7 @@
 
 Pandas is an open-source Python library used for data manipulation, analysis and cleaning. It provides fast and flexible tools to work with tabular data, similar to spreadsheets or SQL tables.
 
-## **Data Structures in Pandas**\
+## **Data Structures in Pandas**
 Pandas provides two data structures for manipulating data which are as follows:
 
 **1. Pandas Series**\
@@ -22,6 +22,19 @@ print(s)
 
 ```
 
+**Output**
+
+```text
+Pandas Series:
+0    a
+1    b
+2    c
+3    d
+4    e
+5    f
+dtype: object
+```
+
 **2. Pandas DataFrame**\
 Pandas DataFrame is a two-dimensional data structure with labeled axes (rows and columns). It is created by loading the datasets from existing storage which can be a SQL database, a CSV file or an Excel file. It can be created from lists, dictionaries, a list of dictionaries etc.
 
@@ -36,4 +49,17 @@ print(df)
 s = ['apple', 'banana', 'cherry', 'mango']
 df = pd.DataFrame(s)
 print(df)
+```
+
+**Output**
+
+```text
+Empty DataFrame
+Columns: []
+Index: []
+        0
+0   apple
+1  banana
+2  cherry
+3   mango
 ```
