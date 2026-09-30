@@ -106,6 +106,6 @@ Prescriptive analytics focuses on what action should be taken. It doesn’t just
 - **Opportunity Optimization:** Identifying actions to maximize benefits from upcoming market trends.
 - **What-if Analysis:** Simulating different decision outcomes and their consequences.
 
-**Example:
+**Example:**
 
 A logistics company uses prescriptive analytics to recommend the most efficient delivery routes, reducing fuel costs and improving on-time delivery.
